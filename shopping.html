@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+
+<!-- vyvian lillian -->
+
+<html lang="en">
+    <head>
+        <title> javascript superstore </title>
+        <meta charset="utf-8">
+        <style>
+            body{
+                font-family: arial;
+                font-size: 20;
+            }
+            h1{
+                font-size: 40;
+                font-style: italic;
+                color:blue;
+            }
+        </style>
+    </head>
+
+    <body>
+
+    <h1> Vyvian Lillian </h1>
+    <h1> Questions </h1>
+    <div> 1. Name a situation where you would need to create an "if" statement.  (There are many answers to this question.) </div>
+    <div> 2. When comparing values,  in what data type is the result stored? (number, string, or Boolean?) </div>
+    <h1> Answers </h1>
+    <div> 1. For instance if you had a prompt, and you wanted to execute different code depending on if the user clicks OK or cancel
+    <div> 2. Boolean (i.e. if the result is false, the code in the if statement isnt executed)
+
+
+
+    <script>
+        let total = prompt("How much did you spend?") //allowing user to enter their total
+        let confirmed = confirm("$" + total + " total is correct? Click OK to continue") //confirming input value of user. it doesn't actually allow the user to return to the previous prompt but the project page says this will be addressed later
+        if (total < 50) alert("No discount") //if total is less than 50, will display that they have no discount
+        if (50 <= total) { //coding for if total is greater than 50, branching for different discount tiers
+            if (total < 100) alert("10% off")
+            else alert("20% off")
+        }
+    </script>
+    </body>
+ </html>
