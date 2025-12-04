@@ -1,0 +1,1 @@
+I saw the example for the random quote generator in the project page and that seemed like a good idea- it has a clear goal with clear steps. It would involve a button that is listened to, and executes code to manipulate the DOM when pressed, which is something we just worked with last week. I decided to make it show random bird facts rather than random quotes.
